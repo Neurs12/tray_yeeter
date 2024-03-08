@@ -9,7 +9,7 @@ def thread(func):
     threading.Thread(target=func, daemon=True).start()
 
 def enable_hotkeys(config):
-    keyboard.add_hotkey(config["hotkeys"]["yeet"], yeeter.yeet, suppress=True)#
+    keyboard.add_hotkey(config["hotkeys"]["yeet"], yeeter.yeet, suppress=True)
     keyboard.add_hotkey(config["hotkeys"]["yeet_all"], yeeter.yeet_all, suppress=True)
     keyboard.add_hotkey(config["hotkeys"]["unyeet"], yeeter.unyeet, suppress=True)
     keyboard.add_hotkey(config["hotkeys"]["unyeet_all"], yeeter.unyeet_all, suppress=True)
