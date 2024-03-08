@@ -50,4 +50,4 @@ Yes, normal keys also works.
 3. Put the shortcut to `Startup` folder.
 
 ## Debug
-Run the process in a console environment should print any error stack trace.
+Clone the repository and run the script.
