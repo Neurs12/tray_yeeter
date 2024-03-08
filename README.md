@@ -3,12 +3,12 @@ A Python tool to yeet your windows.
 
 ## Installation
 1. Download the latest release build.
-2. Extract and run `trayyeeter.exe`.
+2. Extract and run `tray_yeeter.exe`.
 3. A notification should pop up, indicates that the process has started successfully.
 
 ## Edit hotkey
 - All keys are based off of [virutal key codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
-- To edit a hotkey, open `config.json` in the same folder with `trayyeeter.exe`. It will look something like this:
+- To edit a hotkey, open `config.json` in the same folder with `tray_yeeter.exe`. It will look something like this:
 ```json
 {
     "hotkeys": {
@@ -45,7 +45,7 @@ You can also combine multiple keys: `ctrl+shift+alt+3`, `shift+f5`, `shift+win+7
 Yes, normal keys also works.
 
 ## Start with Windows
-1. Create a shortcut to `trayyeeter.exe` you extracted earlier.
+1. Create a shortcut to `tray_yeeter.exe` you extracted earlier.
 2. Press `win + R`, then enter `shell:startup`, this should opens `Startup` folder.
 3. Put the shortcut to `Startup` folder.
 
