@@ -29,13 +29,19 @@ def runner():
     enable_hotkeys(config)
     thread(lambda: toast("Tray Yeeter has settled in (。・ω・。)", f"Yeet current active window: [{config['hotkeys']['yeet'].upper()}]\nUnyeet latest window: [{config['hotkeys']['unyeet'].upper()}]\nYeet everything: [{config['hotkeys']['yeet_all'].upper()}]\nUnyeet everything: [{config['hotkeys']['unyeet_all'].upper()}]"))
 
+def stopper():
+    icon.stop()
+
+icon = Icon("tray yeeter",
+            title="Tray Yeeter",
+            icon=Image.open("icon.png"), menu=Menu(
+                MenuItem("Reload", runner),
+                MenuItem("Quit", stopper)
+            ))
+
 try:
     runner()
 
-    icon = Icon("tray yeeter",
-                        icon=Image.open("icon.png"), menu=Menu(
-                            MenuItem("Reload", runner)
-                        ))
     icon.run()
 except:
     stack = traceback.format_exc()
