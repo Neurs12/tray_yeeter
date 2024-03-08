@@ -8,6 +8,8 @@ class Yeeter:
         try:
             hwnd = win32gui.GetForegroundWindow()
             self.yeeted_windows.append(hwnd)
+
+            win32gui.ShowWindow(hwnd, win32con.SW_HIDE)
         except:
             pass
     
