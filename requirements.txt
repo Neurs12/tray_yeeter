@@ -1,2 +1,6 @@
 pywin32
 psutil
+pillow
+pystray
+keyboard
+win11toast
