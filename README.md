@@ -8,7 +8,7 @@ A Python tool to yeet your windows.
 
 ## Edit hotkey
 - All keys are based off of [virutal key codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
-- To edit a hotkey, open `config.json` in the same folder with `tray_yeeter.exe`. It will look something like this:
+- To edit a hotkey, open `config.json` in the same folder with `tray_yeeter.exe`. It look something like this:
 ```json
 {
     "hotkeys": {
