@@ -45,7 +45,7 @@ You can also combine multiple keys: `ctrl+shift+alt+3`, `shift+f5`, `shift+win+7
 Yes, normal keys also works.
 
 ## Start with Windows
-1. Create a shortcut to `tray_yeeter.exe` you extracted earlier.
+1. Create a shortcut to `tray_yeeter.exe` we've extracted earlier.
 2. Press `win + R`, then enter `shell:startup`, this should opens `Startup` folder.
 3. Put the shortcut to `Startup` folder.
 
