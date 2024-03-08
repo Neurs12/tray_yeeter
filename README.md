@@ -2,7 +2,7 @@
 A Python tool to yeet your windows.
 
 ## Installation
-1. Download the latest release build.
+1. Download the [latest release build](https://github.com/Neurs12/tray_yeeter/releases/).
 2. Extract and run `tray_yeeter.exe`.
 3. A notification should pop up, indicates that the process has started successfully.
 
